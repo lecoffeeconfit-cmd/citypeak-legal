@@ -1,62 +1,497 @@
-Privacy Policy for CityPeak
-Last Updated: June 16, 2026
-CityPeak ("we," "our," or "us") operates the CityPeak mobile application.
-Information We Collect
-Account Information
-When you create an account, we may collect:
-Email address
-Username
-Profile information, including profile photos
-User Content
-We collect content you submit through the app, including:
-Posts
-Comments
-Replies
-Messages
-Profile information
-Uploaded images and videos
-Reports submitted through moderation tools
-Usage Information
-We may collect technical information necessary to operate and improve the app, including:
-Device information
-App usage data
-Error logs and diagnostics
-How We Use Information
-We use collected information to:
-Provide and maintain CityPeak
-Enable user accounts and authentication
-Deliver messaging functionality
-Store and display posts, comments, and media
-Moderate content and enforce community guidelines
-Improve app performance and reliability
-Respond to support requests
-Data Storage
-CityPeak uses third-party services including:
-Firebase Authentication
-Firebase Firestore
-Supabase Storage
-These providers may process and store data on our behalf.
-User Content
-Content you submit may be visible to other users depending on the feature being used. Anonymous posts may still be associated with internal account identifiers for moderation and security purposes.
-Users are responsible for the content they submit. CityPeak does not endorse user-generated content and may remove content that violates community standards.
-Moderation
-Reports submitted by users may be reviewed to investigate violations of community standards and maintain platform safety.
-Data Retention
-We retain information as necessary to operate the service, comply with legal obligations, resolve disputes, and enforce agreements.
-Your Rights
-You may request:
-Access to your information
-Correction of inaccurate information
-Deletion of your account and associated data
-You may request deletion of your account and associated content by contacting:
-citypeakapp@gmail.com
-Children's Privacy
-CityPeak is not intended for children under 13 years of age.
-Security
-We take reasonable measures to protect user information but cannot guarantee absolute security.
-Changes to This Policy
-We may update this Privacy Policy periodically. Continued use of CityPeak after updates constitutes acceptance of the revised policy.
-Contact
-For questions regarding this Privacy Policy:
-citypeakapp@gmail.com
-CityPeak
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Privacy Policy for the CityPeak mobile application."
+  />
+  <title>CityPeak Privacy Policy</title>
+
+  <style>
+    :root {
+      color-scheme: light;
+      --background: #f4f7fb;
+      --surface: #ffffff;
+      --text: #1f2937;
+      --muted: #64748b;
+      --accent: #2563eb;
+      --border: #e2e8f0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family:
+        -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+        sans-serif;
+      background: var(--background);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    main {
+      width: min(900px, calc(100% - 32px));
+      margin: 48px auto;
+      padding: 48px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      box-shadow: 0 14px 40px rgba(15, 23, 42, 0.08);
+    }
+
+    h1 {
+      margin-top: 0;
+      margin-bottom: 8px;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.15;
+      color: #0f172a;
+    }
+
+    h2 {
+      margin-top: 42px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+      font-size: 1.4rem;
+      color: #0f172a;
+    }
+
+    h3 {
+      margin-top: 24px;
+      color: #1e3a8a;
+    }
+
+    p,
+    li {
+      font-size: 1rem;
+    }
+
+    ul {
+      padding-left: 24px;
+    }
+
+    .updated {
+      margin-top: 0;
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    .intro {
+      margin-top: 28px;
+      font-size: 1.05rem;
+    }
+
+    .contact-box {
+      margin-top: 24px;
+      padding: 20px;
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      border-radius: 14px;
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      text-align: center;
+    }
+
+    @media (max-width: 640px) {
+      main {
+        margin: 20px auto;
+        padding: 26px 22px;
+        border-radius: 14px;
+      }
+
+      h2 {
+        margin-top: 34px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1>Privacy Policy for CityPeak</h1>
+      <p class="updated">Last Updated: July 10, 2026</p>
+    </header>
+
+    <p class="intro">
+      CityPeak (“CityPeak,” “we,” “our,” or “us”) operates the CityPeak mobile
+      application. This Privacy Policy explains what information we collect,
+      how we use it, and the choices available to you when you use CityPeak.
+    </p>
+
+    <section>
+      <h2>1. Information We Collect</h2>
+
+      <h3>Account Information</h3>
+      <p>When you create or maintain an account, we may collect:</p>
+      <ul>
+        <li>Email address</li>
+        <li>Username</li>
+        <li>Profile photo</li>
+        <li>Biography and other profile information</li>
+        <li>Internal account identifiers</li>
+        <li>Authentication and account-status information</li>
+      </ul>
+
+      <h3>User Content</h3>
+      <p>
+        We collect content that you submit, send, upload, or otherwise make
+        available through CityPeak, including:
+      </p>
+      <ul>
+        <li>Posts</li>
+        <li>Comments and replies</li>
+        <li>Reactions</li>
+        <li>Private messages</li>
+        <li>Profile information</li>
+        <li>Uploaded images and videos</li>
+        <li>Reports submitted through moderation tools</li>
+        <li>Other information you voluntarily provide</li>
+      </ul>
+
+      <h3>Usage and Technical Information</h3>
+      <p>
+        We may collect technical information necessary to operate, protect,
+        troubleshoot, and improve CityPeak, including:
+      </p>
+      <ul>
+        <li>Device type</li>
+        <li>Operating-system version</li>
+        <li>App version</li>
+        <li>App activity and feature usage</li>
+        <li>Crash reports</li>
+        <li>Error logs</li>
+        <li>Performance information</li>
+        <li>Diagnostic and technical information</li>
+        <li>Dates and times associated with app activity</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>2. Crash Reporting and Diagnostics</h2>
+      <p>
+        CityPeak uses Sentry, a third-party error-monitoring and performance
+        service, to detect crashes, technical errors, and performance problems.
+      </p>
+
+      <p>
+        Depending on the type of error and CityPeak’s configuration, Sentry may
+        process information such as:
+      </p>
+      <ul>
+        <li>Crash and error reports</li>
+        <li>Stack traces and technical logs</li>
+        <li>Device type and operating-system information</li>
+        <li>CityPeak app version</li>
+        <li>Performance and reliability information</li>
+        <li>The circumstances surrounding an error</li>
+        <li>Technical identifiers associated with an error event</li>
+      </ul>
+
+      <p>
+        We use this information to troubleshoot problems, improve reliability,
+        maintain security, and improve CityPeak’s performance.
+      </p>
+
+      <p>
+        CityPeak does not use Sentry information for third-party advertising or
+        cross-app tracking.
+      </p>
+    </section>
+
+    <section>
+      <h2>3. How We Use Information</h2>
+      <p>We may use collected information to:</p>
+      <ul>
+        <li>Provide, maintain, and operate CityPeak</li>
+        <li>Create and manage user accounts</li>
+        <li>Authenticate users</li>
+        <li>Display profiles and user-generated content</li>
+        <li>Deliver posts, comments, reactions, and replies</li>
+        <li>Provide private messaging functionality</li>
+        <li>Store and display uploaded images and videos</li>
+        <li>Process user reports</li>
+        <li>Review potential violations of our rules</li>
+        <li>Prevent abuse, fraud, spam, and security threats</li>
+        <li>Diagnose crashes and technical problems</li>
+        <li>Improve app performance, reliability, and usability</li>
+        <li>Respond to support requests</li>
+        <li>Enforce our terms, policies, and community standards</li>
+        <li>Comply with applicable legal obligations</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>4. User Content and Visibility</h2>
+      <p>
+        Content you submit may be visible to other CityPeak users, depending on
+        the feature being used and the privacy settings available for that
+        feature.
+      </p>
+
+      <p>Publicly visible information may include:</p>
+      <ul>
+        <li>Username</li>
+        <li>Profile photo</li>
+        <li>Biography</li>
+        <li>Posts</li>
+        <li>Comments and replies</li>
+        <li>Reactions</li>
+        <li>Uploaded media</li>
+      </ul>
+
+      <p>
+        Private messages are intended to be visible only to the participants in
+        the conversation. However, information may be accessed when reasonably
+        necessary to operate the service, investigate reports, enforce
+        policies, maintain security, or comply with legal obligations.
+      </p>
+
+      <p>
+        Users are responsible for the content they submit. CityPeak does not
+        endorse user-generated content and may restrict or remove content that
+        violates applicable laws, our terms, or our community standards.
+      </p>
+    </section>
+
+    <section>
+      <h2>5. Anonymous Posts</h2>
+      <p>
+        CityPeak may allow users to post content without publicly displaying
+        their username.
+      </p>
+
+      <p>
+        An anonymous post may still be associated with the submitting user’s
+        internal account identifier. This association may be used for:
+      </p>
+      <ul>
+        <li>Moderation</li>
+        <li>Security</li>
+        <li>Abuse prevention</li>
+        <li>Investigating reports</li>
+        <li>Enforcing community standards</li>
+        <li>Complying with legal obligations</li>
+      </ul>
+
+      <p>
+        Anonymous posting does not guarantee that content is anonymous to
+        CityPeak or its service providers.
+      </p>
+    </section>
+
+    <section>
+      <h2>6. Moderation and User Reports</h2>
+      <p>
+        Users may report posts, messages, accounts, or other content they
+        believe violates CityPeak’s rules.
+      </p>
+
+      <p>Reports may include:</p>
+      <ul>
+        <li>The reported content</li>
+        <li>The reason selected by the reporting user</li>
+        <li>Information about the reporting and reported accounts</li>
+        <li>The date and time of the report</li>
+        <li>Relevant technical or account information</li>
+      </ul>
+
+      <p>
+        Reports may be reviewed to investigate potential violations, respond to
+        safety concerns, prevent abuse, and maintain the CityPeak community.
+      </p>
+    </section>
+
+    <section>
+      <h2>7. Third-Party Service Providers</h2>
+      <p>
+        CityPeak uses third-party service providers to operate and support the
+        application. These providers may process or store information on our
+        behalf.
+      </p>
+
+      <h3>Firebase Authentication</h3>
+      <p>
+        Used to create accounts, authenticate users, and manage account access.
+      </p>
+
+      <h3>Firebase Firestore</h3>
+      <p>
+        Used to store app information such as profiles, posts, comments,
+        conversations, reports, and related application data.
+      </p>
+
+      <h3>Supabase Storage</h3>
+      <p>
+        Used to store and deliver uploaded content such as profile photos,
+        images, videos, thumbnails, and other media.
+      </p>
+
+      <h3>Sentry</h3>
+      <p>
+        Used to identify crashes, errors, performance problems, and other
+        technical issues.
+      </p>
+
+      <p>
+        These providers process information according to their own terms and
+        privacy practices.
+      </p>
+    </section>
+
+    <section>
+      <h2>8. Data Retention</h2>
+      <p>We retain information for as long as reasonably necessary to:</p>
+      <ul>
+        <li>Provide and maintain CityPeak</li>
+        <li>Keep accounts active</li>
+        <li>Store user-requested content</li>
+        <li>Investigate reports and safety concerns</li>
+        <li>Prevent fraud and abuse</li>
+        <li>Resolve disputes</li>
+        <li>Enforce our agreements and policies</li>
+        <li>Comply with legal obligations</li>
+      </ul>
+
+      <p>
+        Some information may remain in backups, security records, moderation
+        records, or diagnostic systems for a limited period after account or
+        content deletion.
+      </p>
+    </section>
+
+    <section>
+      <h2>9. Account and Data Deletion</h2>
+      <p>
+        You may request deletion of your CityPeak account and associated
+        personal information by contacting:
+      </p>
+
+      <div class="contact-box">
+        <a href="mailto:citypeakapp@gmail.com">citypeakapp@gmail.com</a>
+      </div>
+
+      <p>
+        Your request should be sent from the email address associated with your
+        CityPeak account when possible. We may need to verify your identity
+        before completing a deletion request.
+      </p>
+
+      <p>
+        Some information may be retained when reasonably necessary for legal
+        compliance, fraud prevention, security, dispute resolution, moderation,
+        or enforcement purposes.
+      </p>
+    </section>
+
+    <section>
+      <h2>10. Your Choices and Rights</h2>
+      <p>
+        Depending on your location and applicable law, you may have the right to
+        request:
+      </p>
+      <ul>
+        <li>Access to personal information associated with your account</li>
+        <li>Correction of inaccurate information</li>
+        <li>Deletion of your account and personal information</li>
+        <li>Additional information about how your information is processed</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>11. Children’s Privacy</h2>
+      <p>
+        CityPeak is not intended for children under 13 years of age. We do not
+        knowingly collect personal information from children under 13.
+      </p>
+
+      <p>
+        If we learn that a child under 13 has provided personal information
+        through CityPeak, we may take steps to delete the information and
+        terminate the associated account.
+      </p>
+    </section>
+
+    <section>
+      <h2>12. Security</h2>
+      <p>
+        We take reasonable administrative and technical measures designed to
+        protect user information.
+      </p>
+
+      <p>
+        However, no application, storage system, or method of electronic
+        transmission can be guaranteed to be completely secure. We cannot
+        guarantee the absolute security of information submitted to or stored
+        by CityPeak.
+      </p>
+    </section>
+
+    <section>
+      <h2>13. Legal Requirements and Safety</h2>
+      <p>
+        We may access, preserve, or disclose information when we reasonably
+        believe it is necessary to:
+      </p>
+      <ul>
+        <li>Comply with applicable laws or valid legal processes</li>
+        <li>Respond to lawful requests from government authorities</li>
+        <li>Enforce our terms, policies, and community standards</li>
+        <li>Investigate fraud, abuse, or security incidents</li>
+        <li>
+          Protect the rights, property, or safety of CityPeak, our users, or
+          others
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>14. Changes to This Privacy Policy</h2>
+      <p>
+        We may update this Privacy Policy periodically to reflect changes to
+        CityPeak, our practices, our service providers, or applicable
+        requirements.
+      </p>
+
+      <p>
+        When we update the policy, we will revise the “Last Updated” date at the
+        top of this page.
+      </p>
+    </section>
+
+    <section>
+      <h2>15. Contact Us</h2>
+      <div class="contact-box">
+        <p><strong>Application:</strong> CityPeak</p>
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:citypeakapp@gmail.com">citypeakapp@gmail.com</a>
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      © 2026 CityPeak
+    </footer>
+  </main>
+</body>
+</html>
